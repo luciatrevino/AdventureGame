@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Text-based Adventure game</title>
+        <meta charset= "UTF-8">
+        <meta name="viewport" content=" width=device-width, initial-scale= 1.0">
+        <meta http-equiv="X-UA-Compatible" content=" ie=edge">
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    
+    <body>
+        
+        <div class="title"> The Apple and the Doctor </div>
+        <div class="story-opening">
+            <img src="https://media.istockphoto.com/id/172271165/photo/bedroom-that-needs-a-reno.jpg?s=612x612&w=0&k=20&c=Ma3iagYhzllvN3hmlrlpoD3VvOpGYHl5p86AqhFZyWA=">
+            <h1>You wake up in your nasty room and remember "oh dang it, I forgot I have to go to the doctor today." So you get up and make a choice...</h1>
+        
+
+        <!-- Change the text of the buttons to the options relevant to your story. -->
+        <div class="buttons" id="buttons1">
+            <button class="option-one">GO TO DOCTOR</button>
+            <button class="option-two">stay home and miss your appointment</button>
+        </div>
+    </div>
+
+        <!-- Put the part of the story the user will see if they picked option one. -->
+        <div class="doctor-screen">
+            <h1>YAHOOO! You go to the doctor... He meets up with you but wait... he looks mad sketchy. You insult him and he starts chasing you!! You come across a room with a red apple and a golden apple! Quick which of them do you eat????</h1>
+            <img src="https://miro.medium.com/v2/resize:fit:612/1*jzJAPJQvsxJhhV2q1uBFrg.jpeg">
+            <div class="buttons" >
+                <button class="option-three">Eat RED apple</button>
+                <button class="option-four"> Eat GOLDEN apple</button>
+            </div>
+        </div>
+
+        <!-- Put the part of the story the user will see if they picked option two. -->
+        <div class="death-scene">
+            <h1> You go back to bed and die because you were you weren't cured of your disease.</h1>
+            <img src="https://trustedcaskets.com/cdn/shop/articles/gravestone_1200x1200.jpg?v=1676666346">
+            <div class="buttons">
+                <button class="option-five">restart</button>
+            </div>
+        </div>
+
+        <!--Put the end of the story if the user chose option 1.-->
+        <div class="red-apple">
+            <h1> The Doctor dies because "one apple a day keeps the doctor away!" </h1>
+            <img src="https://t3.ftcdn.net/jpg/00/88/52/72/360_F_88527283_SS0GFmNsLj222M3Fp2KzWCBJBRSgyDmG.jpg">
+            <div class="buttons">
+                <button class="option-six">Restart</button>
+            </div>
+        </div>
+
+        <!-- Put the end of the story if the user chose option 2.-->
+        <div class="golden-apple">
+            <h1> YOU TURN INTO DOCTOR AND THE CYCLE REPEATS ( Wow You're Pretty)</h1>
+            <img src="https://c8.alamy.com/comp/DH71TR/beautiful-female-doctor-sitting-on-the-desk-of-her-consultation-DH71TR.jpg">
+            <div class="buttons">
+                <button class="option-seven">Restart</button>
+            </div>
+        </div>
+    </body>
+</html>
